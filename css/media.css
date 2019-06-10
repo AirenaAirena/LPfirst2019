@@ -1,0 +1,290 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main-mnu{
+		padding-right: 0;
+	}
+	.logo{
+		padding-left: 15px;
+	}
+	.s-teamQuotes-img-wrap{
+		margin-top: -130px;
+		margin-left: 15px;
+	}
+	.s-services .wrap-dial{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.s-services .dial{
+		margin: 0 0 0 20px;
+	}
+	.s-services .dial{
+		margin: 0 10px;
+	}
+	.name-info h3{
+		margin: 0;
+	}
+	.s-team .team-item-skills .name-info p{
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.s-team .team-item-skills, .s-team .slider .line{
+		margin-top: 10px;
+	}
+	.s-team .owl-controls{
+		margin-top: 15px;
+	}
+	
+	.s-blog .slide-content{
+		margin-left: 60px;
+	}
+
+		body > section.s-wide.s-blog{
+			padding-bottom: 0;
+		}
+		.s-blog .section-had .xxx{
+			margin-top: 20px;
+		}
+		.s-blog .owl-controls .owl-pagination{
+			bottom: 320px;
+		}
+		.s-featured-footer p{
+			margin-right: 60px;
+		}
+	
+	}
+
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+		.s-services .dial, .s-services .procent80::before, .s-services .procent60::before,.s-services .procent75::before{
+			width: 110px;
+			height: 110px;
+		}
+		.s-services .dial p{
+			line-height: 100px;
+		}
+		.s-services .tab_content, .services-tab .tabs{
+			text-align: center;
+		}
+		.services-tab .tab_item p.two{
+			margin: auto;
+		}
+		.s-services .wrap-dial{
+			margin-top: 30px;
+		}
+		.details-tab .tabs, .services-tab .tabs{
+			margin-bottom: 30px;
+		}
+		.services-tab .tabs span + span{
+			margin-left: 25px;
+		}
+		.s-testimonials .slider .slide .img-wrap{
+			margin: 0 auto 30px;
+		}
+		.s-wide.s-team .name-info > h3{
+			margin: 0;
+		}
+		.s-team .team-item-skills .name-info p{
+			margin-top: 5px;
+			margin-bottom: 30px;
+		}
+		.s-team .slider .line{
+			margin-top: 5px;
+			margin-right: 40px;
+		}
+	.s-portfolio .portfolio-tab .tab_content{
+		column-count: 4;
+		column-gap: 10px;
+	}
+	.s-featured-footer p{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.s-team .team-item-skills .skill-item{
+		margin-left: 50px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.arrow-wrap{
+		top: 70px;
+	}
+	header{
+		min-height: 650px;
+	}
+	.s-wide{
+		padding: 50px 0 60px;
+	}
+	.s-about{
+		text-align: center;
+	}
+	.s-about p{
+		max-width: 100%;
+	}
+		.s-team .team-item-skills .skill-item .skill-name{
+			font-size: 15px;
+		}		
+		.s-team .team-item-skills .name-info > span{
+			margin: 0;
+		}
+		.s-team .col-md-3{
+			padding: 15px;
+		}
+		.s-team .name-info{
+			text-align: center;
+		}
+		.s-blog .section-had p{
+			margin-bottom: 30px;
+		}
+		.s-blog .section-had h2{
+			margin-bottom: 20px;
+		}
+		.s-blog  .owl-pagination{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.s-blog .owl-controls .owl-pagination{
+			position: static;
+			right: 0;
+			bottom: 0;
+		}
+		.s-blog .owl-page{
+			display: inline-block;
+		}
+		.s-blog .section-had h2, .s-blog .section-had p{
+			margin-left: 45px;
+		}
+		.s-blog img{
+			padding-top: 100px;
+		}
+		.s-portfolio .portfolio-tab .tab_content{
+			column-count: 2;
+			column-gap: 90px;
+		}
+		.details-tab .tab_item p.two{
+			margin-top: 30px;
+		}
+		.s-team .slider .line, .s-team .team-item-skills{
+					margin-top: 35px;
+		}
+		.s-team .img-wrap{
+			margin: auto;
+		}
+		.s-wide.s-team .name-info > h3,.s-team .team-item-skills .name-info > span, .s-team .team-item-skills .name-info p{
+			text-align: center;
+		}
+		.s-team .team-item-skills{
+			max-width: 450px;
+			margin: auto;
+		}
+		.s-team .team-item-skills .skill-item{
+			margin-left: 0;
+		}
+		.s-team .slider .line{
+			opacity: 0;
+		}
+	}
+
+
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+		.s-teamQuotes .content-wrap{
+			margin: 0 30px;
+		}
+		.s-subscribe .button,
+		.s-subscribe .form{
+			width: 290px;
+			margin-top: 10px;
+		}
+		.s-testimonials .slider .slide p, .s-testimonials .slider .slide span{
+			margin-left: 15px;
+		}
+		.s-blog .section-had h2, .s-blog .section-had p{
+			margin-left: 25px;
+		}
+		.s-portfolio .portfolio-tab .tab_content{
+			column-count: 1;
+			column-gap: 0;
+		}
+		.s-portfolio .wrapper span{
+			margin-bottom: 35px;
+		}
+		.s-portfolio .wrapper .tabs{
+			margin-bottom: 25px;
+		}
+		.s-team .img-wrap{
+			margin: auto;
+		}
+		.s-wide.s-team .name-info > h3{
+			text-align: center;
+			margin-top: 15px;
+		}
+		.s-team .team-item-skills .name-info p{
+			text-align: center;
+		}
+	}
+
+		/* Custom, iPhone Retina */
+		@media only screen and (max-width : 320px) {
+			.services-tab .tabs span + span {
+				margin-left: 15px;
+			}
+			.s-services .dial, .s-services .procent80::before, .s-services .procent60::before,.s-services .procent75::before{
+				width: 100px;
+				height: 100px;
+			}
+			.s-services .dial p{
+				font-size: 25px;
+				line-height: 90px;
+			}
+			.s-services .dial span{
+				line-height: 11px;
+				height: 20px;
+			}
+			.s-services .dial:last-child{
+				margin-bottom: 0;
+			}
+			.s-services .dial{
+				margin: 0;
+			}
+			.s-services .wrap-dial{
+				display: block;
+			}
+			.s-blog .slide-content{
+				margin-left: 15px;
+			}
+
+		}
+
+
+		/*==========  Mobile First Method  ==========*/
+
+		/* Custom, iPhone Retina */
+		@media only screen and (min-width : 320px) {
+
+		}
+
+		/* Extra Small Devices, Phones */
+		@media only screen and (min-width : 480px) {
+
+		}
+
+		/* Small Devices, Tablets */
+		@media only screen and (min-width : 768px) {
+
+		}
+
+		/* Medium Devices, Desktops */
+		@media only screen and (min-width : 992px) {
+
+		}
+
+		/* Large Devices, Wide Screens */
+		@media only screen and (min-width : 1200px) {
+
+		}
